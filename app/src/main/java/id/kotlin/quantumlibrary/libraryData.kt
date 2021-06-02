@@ -4,7 +4,23 @@ import java.util.ArrayList
 
 internal object rizalData {
     var data = arrayOf(
-  
+        arrayOf(
+            "Book 1",
+            "Technology",
+            "https://upload.wikimedia.org/wikipedia/en/a/a2/The_7_Habits_of_Highly_Effective_People.jpg",
+            "Deskripsi",
+            "Tanggal",
+            "Tanggal",
+            "0"
+        ), arrayOf(
+            "Book 2",
+            "Technology",
+            "https://upload.wikimedia.org/wikipedia/en/a/a2/The_7_Habits_of_Highly_Effective_People.jpg",
+            "Deskripsi",
+            "Tanggal",
+            "Tanggal",
+            "0"
+        ),
     )
     val listData: ArrayList<rizal>
         get() {
