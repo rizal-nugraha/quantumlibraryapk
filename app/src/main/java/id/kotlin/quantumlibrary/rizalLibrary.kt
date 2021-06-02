@@ -12,7 +12,32 @@ internal class rizal : Parcelable {
     var penulis: String? = null
     var tahun: String? = null
     var halaman: String? = null
-    
+
+    protected constructor(`in`: Parcel) {
+        name = `in`.readString()
+        remarks = `in`.readString()
+        photo = `in`.readString()
+        deskripsi = `in`.readString()
+        penulis = `in`.readString()
+        tahun = `in`.readString()
+        halaman = `in`.readString()
+    }
+
+    constructor() {}
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    override fun writeToParcel(parcel: Parcel, i: Int) {
+        parcel.writeString(name)
+        parcel.writeString(remarks)
+        parcel.writeString(photo)
+        parcel.writeString(deskripsi)
+        parcel.writeString(penulis)
+        parcel.writeString(tahun)
+        parcel.writeString(halaman)
+    }
 
     companion object CREATOR : Parcelable.Creator<rizal> {
         override fun createFromParcel(parcel: Parcel): rizal {
