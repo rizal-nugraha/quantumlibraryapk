@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivityRizal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-1dp"
+                android:layout_marginBottom="56dp"
+                android:background="#51AFAFAF"
+                tools:layout_editor_absoluteX="141dp"
+                tools:layout_editor_absoluteY="108dp"
+                tools:srcCompat="@drawable/rizal_nugraha"
+                android:src="@drawable/rizal_nugraha"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/namaKu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="16dp"
+                android:text="Rizal Nugraha"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/emailku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="24dp"
+                android:text="rizal.nugrahaa@gmail.com"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="290dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/deskripsiku"
+                android:layout_width="378dp"
+                android:layout_height="117dp"
+                android:layout_marginStart="-3dp"
+                android:layout_marginBottom="58dp"
+                android:text="Nama saya Rizal Nugraha, biasa dipanggil rizal, Saya sangat menyukai inovasi, teknologi dan belajar hal baru, Saya juga suka ngoding, main game, dan hal-hal yang biasa manusia lakukan. Saya pun sangat antusias untuk mulai belajar membangun aplikasi android."
+                android:textAppearance="@style/TextContent"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="335dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button_about_rizal"
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginBottom="148dp"
+                android:background="#D3FFEB3B"
+                android:text="More"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="495dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
